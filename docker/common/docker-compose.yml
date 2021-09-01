@@ -1,0 +1,6 @@
+version: '2'
+services:
+  creativeservice:
+    image: adtech/creative-service:chapter2
+    ports:
+      - "8080:8080"
